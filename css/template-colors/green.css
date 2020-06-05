@@ -1,0 +1,263 @@
+/**
+* Ryan - Resume/CV/vCard Template (HTML)
+* Version: 2.0
+* Author: beshleyua
+* Author URL: http://themeforest.net/user/beshleyua
+* Copyright © Cvio by beshleyua. All Rights Reserved.
+**/
+
+/* TABLE OF CONTENTS
+	1. Template Green
+*/
+
+/* 1. Template Green */
+.background {
+  background-color: rgba(52, 101, 238, 0.479);
+}
+
+.preloader .spinner .double-bounce1,
+.preloader .spinner .double-bounce2 {
+  background: #ffab00;
+}
+
+.lnk:hover,
+.button:hover {
+  color: #ffab00;
+}
+
+.lnk:hover .ion,
+.button:hover .ion {
+  color: #ffab00;
+}
+
+.lnk:hover .arrow:before,
+.button:hover .arrow:before,
+.lnk:hover .arrow:after,
+.button:hover .arrow:after {
+  background: #ffab00;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  border-bottom: 1px solid #ffab00;
+}
+
+button:hover {
+  border-bottom: 1px solid #ffab00;
+}
+
+.header .top-menu ul li:hover a,
+.header .top-menu ul li.active a {
+  color: #ffab00;
+}
+
+.header .top-menu ul li:hover a .icon,
+.header .top-menu ul li.active a .icon,
+.header .top-menu ul li:hover a .link,
+.header .top-menu ul li.active a .link {
+  color: #ffab00;
+}
+/*
+.card-started:after {
+  background: -moz-linear-gradient(-45deg, rgba(52, 101, 238, 0.479) 0%, rgba(52, 101, 238, 0.479) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(52, 101, 238, 0.479) 0%, rgba(52, 101, 238, 0.479) 100%);
+  background: linear-gradient(135deg, rgba(52, 101, 238, 0.479) 0%, rgba(52, 101, 238, 0.479) 100%);
+}
+
+.card-started .profile .image:before {
+  <!--
+  background: -moz-linear-gradient(-45deg, rgba(52, 101, 238, 0.479) 0%, rgba(52, 101, 238, 0.479) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(52, 101, 238, 0.479) 0%, rgba(52, 101, 238, 0.479) 100%);
+  background: linear-gradient(135deg, rgba(226, 104, 95, 0.4) 0%, rgba(52, 101, 238, 0.479) 100%);
+  
+}
+*/
+.card-started .profile .subtitle {
+  color: #ffab00;
+}
+
+.card-started .profile .social a:hover .ion,
+.card-started .profile .social a:hover .fab,
+.card-started .profile .social a:hover .fas {
+  color: #ffab00;
+}
+
+.content .title:before {
+  background: -moz-linear-gradient(-45deg, #ffab00 0%, #ffab00 100%);
+  background: -webkit-linear-gradient(-45deg, #ffab00 0%, #ffab00 100%);
+  background: linear-gradient(135deg, #ffab00 0%, #ffab00 100%);
+}
+
+.service-items .service-item .icon {
+  color: #ffab00;
+  background: -moz-linear-gradient(-45deg, #ffab00 0%, #ffab00 100%);
+  background: -webkit-linear-gradient(-45deg, #ffab00 0%, #ffab00 100%);
+  background: linear-gradient(135deg, #ffab00 0%, #ffab00 100%);
+}
+
+.pricing-items .pricing-item .icon {
+  color: #ffab00;
+}
+
+.pricing-items .pricing-item .feature-list ul li strong {
+  background: rgba(52, 101, 238, 0.479);
+}
+
+.fuct-items .fuct-item .icon {
+  color: #ffab00;
+}
+
+.resume-title .icon,
+.skill-title .icon {
+  color: #623ffd;
+}
+
+.resume-items .resume-item.active .date {
+  color: #ffab00;
+}
+
+.resume-items .resume-item.active .date:before {
+  background: #ffab00;
+}
+
+.skills-list ul li .progress .percentage {
+  background: #ffab00;
+}
+
+.content.works .filter-menu .f_btn.active {
+  color: #ffab00;
+}
+
+.box-item .image .info:before {
+  background: -moz-linear-gradient(-45deg, #ffab00 0%, #ffab00 100%);
+  background: -webkit-linear-gradient(-45deg, #ffab00 0%, #ffab00 100%);
+  background: linear-gradient(135deg, #ffab00 0%, #ffab00 100%);
+}
+
+.post-box .blog-content blockquote {
+  border-left: 2px solid #ffab00;
+}
+
+.post-box .blog-content ul.list-style li:before {
+  background: #ffab00;
+}
+
+.post-box .post-comments li .comment-info .name h6 {
+  color: #ffab00;
+}
+
+.background.gradient {
+  background: #ffab00;
+  background: -webkit-linear-gradient(top left, #50a3a2 0%, #623ffd 100%);
+  background: linear-gradient(to bottom right, #50a3a2 0%, #623ffd 100%);
+}
+
+/*
+  New Styles
+*/
+
+.skills-list.list ul li .name:before {
+  color: #ffab00;
+}
+
+.skills-list.dotted ul li .progress .da span {
+  background: #ffab00!important;
+}
+
+.skills-list.circles .progress .bar, 
+.skills-list.circles .progress.p51 .fill, 
+.skills-list.circles .progress.p52 .fill, 
+.skills-list.circles .progress.p53 .fill, 
+.skills-list.circles .progress.p54 .fill, 
+.skills-list.circles .progress.p55 .fill, 
+.skills-list.circles .progress.p56 .fill, 
+.skills-list.circles .progress.p57 .fill, 
+.skills-list.circles .progress.p58 .fill, 
+.skills-list.circles .progress.p59 .fill, 
+.skills-list.circles .progress.p60 .fill, 
+.skills-list.circles .progress.p61 .fill, 
+.skills-list.circles .progress.p62 .fill, 
+.skills-list.circles .progress.p63 .fill, 
+.skills-list.circles .progress.p64 .fill, 
+.skills-list.circles .progress.p65 .fill, 
+.skills-list.circles .progress.p66 .fill, 
+.skills-list.circles .progress.p67 .fill, 
+.skills-list.circles .progress.p68 .fill, 
+.skills-list.circles .progress.p69 .fill, 
+.skills-list.circles .progress.p70 .fill, 
+.skills-list.circles .progress.p71 .fill, 
+.skills-list.circles .progress.p72 .fill, 
+.skills-list.circles .progress.p73 .fill, 
+.skills-list.circles .progress.p74 .fill, 
+.skills-list.circles .progress.p75 .fill, 
+.skills-list.circles .progress.p76 .fill, 
+.skills-list.circles .progress.p77 .fill, 
+.skills-list.circles .progress.p78 .fill, 
+.skills-list.circles .progress.p79 .fill, 
+.skills-list.circles .progress.p80 .fill, 
+.skills-list.circles .progress.p81 .fill, 
+.skills-list.circles .progress.p82 .fill, 
+.skills-list.circles .progress.p83 .fill, 
+.skills-list.circles .progress.p84 .fill, 
+.skills-list.circles .progress.p85 .fill, 
+.skills-list.circles .progress.p86 .fill, 
+.skills-list.circles .progress.p87 .fill, 
+.skills-list.circles .progress.p88 .fill, 
+.skills-list.circles .progress.p89 .fill, 
+.skills-list.circles .progress.p90 .fill, 
+.skills-list.circles .progress.p91 .fill, 
+.skills-list.circles .progress.p92 .fill, 
+.skills-list.circles .progress.p93 .fill, 
+.skills-list.circles .progress.p94 .fill, 
+.skills-list.circles .progress.p95 .fill, 
+.skills-list.circles .progress.p96 .fill, 
+.skills-list.circles .progress.p97 .fill, 
+.skills-list.circles .progress.p98 .fill, 
+.skills-list.circles .progress.p99 .fill, 
+.skills-list.circles .progress.p100 .fill {
+  border: 0.09em solid #ffab00;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ffab00;
+}
+
+.card-started .profile .subtitle, 
+.card-started .profile .typed-cursor {
+  color: #ffab00;
+}
+
+.content .title .first-word {
+  color: #ffab00;
+}
+/*
+.content .title::first-letter,
+.content .title .first-letter::first-letter {
+  color: #ffab00;
+}
+*/
+.new-skin .service-items .service-item .icon {
+  background: #ffab00!important;
+}
+
+.resume-items .resume-item.active .date {
+  border-color: #ffab00;
+}
+
+.box-item:hover .desc .name {
+  color: #ffab00;
+}
+
+.new-skin .info-list ul li strong {
+  background: #ffab00;
+}
+
+.revs-carousel .owl-dots .owl-dot {
+  border-color: #ffab00;
+}
+
+.revs-carousel .owl-dot.active {
+  background: #623ffd;
+}
